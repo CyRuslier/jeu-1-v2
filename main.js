@@ -52,7 +52,7 @@ ctx.beginPath();
   }
 
   bouteilles.forEach(function (bouteille) {
-    bouteille.y += 6;
+    bouteille.y += 5;
     bouteille.draw();
   });
 
