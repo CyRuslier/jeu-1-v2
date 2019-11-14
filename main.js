@@ -52,7 +52,7 @@ ctx.beginPath();
   }
 
   bouteilles.forEach(function (bouteille) {
-    bouteille.y += 5;
+    bouteille.y += 4;
     bouteille.draw();
   });
 
@@ -149,6 +149,13 @@ ctx.beginPath();
       case 39:
         //right
         bike.moveRight();
+        break;
+      case 38:
+      //up
+      bike.moveUp();
+      break;
+      case 40:
+        bike.moveDown();
         break;
     }
   }

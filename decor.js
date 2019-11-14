@@ -20,8 +20,8 @@
 
  const voitureimgRatio = voitureimg.naturalWidth/voitureimg.naturalHeight;
 
-        this.w = 100; 
-        this.h = 180;
+        this.w = 80; 
+        this.h = 120;
   
         this.x = 50;
         this.y = 680//-this.h;
@@ -69,9 +69,8 @@
 
         const voitureBleueimgRatio = voitureBleueimg.naturalWidth/voitureBleueimg.naturalHeight;
 
-        this.w = 100; 
-        this.h = 180;
-  
+        this.w = 80; 
+        this.h = 120;
         this.x = 150;
         this.y = 680//-this.h;
         }
