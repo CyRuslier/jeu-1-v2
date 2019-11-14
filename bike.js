@@ -4,7 +4,7 @@ class Bike {
         img.onload = () => {
             this.img = img;
             const imgRatio = img.naturalWidth/img.naturalHeight;
-            this.w = 60;
+            this.w = 50;
             this.h = this.w / imgRatio;
             this.x = 250;
             this.y = 450;
@@ -22,7 +22,13 @@ class Bike {
     moveLeft() {
     this.x += -50;
   }
-  moveRight() {
+    moveRight() {
     this.x += 50;
+  }
+  moveUp(){
+    this.y += -40;
+  }
+  moveDown(){
+    this.y += 40;
   }
 }
